@@ -1,0 +1,41 @@
+title: 'OUR PROCESS'
+
+items: 
+  - image: assets/images/services-4.1.jpg
+    title: REACH US
+    description: 'Have you decided what types of services you want to delegate to us? Contact us with your requirements.'
+    link: '#'
+  - image: assets/images/services-4.2.jpg
+    title: SCHEDULE A MEETING
+    description: 'One of our Account Managers will contact you and schedule a meeting with you via the internet to discuss in detail your requirements, expectation, and delivery schedule.'
+    link: '#'
+  - image: assets/images/services-4.3.jpg
+    title: CHOOSE THE BEST PLAN
+    description: "Once we match make the dedicated Virtual Assistant with your job, and then it's time to choose the best plan. Our friendly Account Manager will guide you through available plans suitable that suits your business, requirements, and budget."
+    link: '#'
+  - image: assets/images/services-4.4.jpg
+    title: 'SEND US YOUR TASK'
+    description: "Send us the detail of the task and every relevant information, necessary for the success of the job."
+    link: '#'
+  - image: assets/images/services-4.5.jpg
+    title: Team services 
+    description: 'Our Virtual Assistant Team services will save you time and allow you can focus on growing your business.'
+    link: '#'
+  - image: assets/images/services-4.6.jpg
+    title:  ENJOY YOUR TIME
+    description: 'While our team of experts is executing the assigned tasks, you can put those valuable time into other important things to grow your business.'
+    link: '#'
+  - image: assets/images/services-4.1.jpg
+    title: 'EVALUATE'
+    description: 'Our Account Manage evaluates the job process and delivery for maximum efficiency.'
+    link: '#'
+  - image: assets/images/services-4.3.jpg
+    title: 'OUR SERVICES'
+    description: 'Known for professionalism and quality SME assistant services, we offer All support services you need In One Place.'
+    link: '#'
+  - image: assets/images/services-4.4.jpg
+    title: 'Administrative & Executive Assistant'
+    description: 'Whether Admin Assistant, Professional Assistant, Virtual Administrative Assistant, Online Administrative Assistant, Virtual Office Assistant, and Remote Assistant, they are just different names for the same role.'
+    link: '#'
+
+    
