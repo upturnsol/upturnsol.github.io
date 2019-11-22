@@ -1,0 +1,38 @@
+    <!--====== WHO WE ARE PART START ======-->
+    <div class="who-we-are-area pt-110 pb-120">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0s">
+                    <div class="section-title">
+                        <span>{{ site.data.we-are-area.tagline }}</span>
+                        <h2 class="title">{{ site.data.we-are-area.title }}</h2>
+                    </div> <!-- section title -->
+                </div>
+                <div class="col-lg-6 offset-lg-1 wow fadeInRight"  data-wow-duration="1.5s" data-wow-delay="0s">
+                    <div class="section-title">
+                        <p>{{ site.data.we-are-area.description }}</p>
+                    </div> <!-- section title -->
+                </div>
+            </div>
+            <div class="row">
+                {%- for item in site.data.we-are-area.slider -%}
+                <div class="col-lg-3 col-md-6 col-sm-6 wow slideInUp" data-wow-duration=".5s" data-wow-delay="0s">
+                    <div class="what-we-do-item text-center mt-30">
+                        <i class="{{ item.icon }}"></i>
+                        <h5 class="title">{{ item.title }}</h5>
+                        <p>{{ item.description }}</p>
+                        <a href="{{ item.link }}"><i class="fal fa-long-arrow-right"></i></a>
+                    </div> <!-- what we do item -->
+                </div>
+                {%- endfor -%}        
+            </div> <!-- row -->
+        </div> <!-- container -->
+        <div class="what-we-are-shape-1">
+            <img src="assets/images/what-we-are-shape-1.png" alt="shape">
+        </div>
+        <div class="what-we-are-shape-2">
+            <img src="assets/images/what-we-are-shape-2.png" alt="shape">
+        </div>
+    </div>
+
+    <!--====== WHO WE ARE PART ENDS ======-->

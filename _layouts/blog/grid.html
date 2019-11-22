@@ -1,0 +1,84 @@
+    <!--====== PAGE TITLE PART START ======-->
+         
+    <div class="page-title-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="page-title-item text-center">
+                        <h2 class="title">News</h2>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">Home </a></li>
+                                <li class="breadcrumb-item active" aria-current="page">News</li>
+                            </ol>
+                        </nav>
+                    </div> <!-- page title -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </div> 
+
+    <!--====== PAGE TITLE PART ENDS ======-->
+
+    <!--====== BLOG GRID PART START ======-->
+            
+        <div class="blog-grid-area pt-90 pb-120">
+            <div class="container">
+                <div class="row justify-content-center">
+                    
+
+                    {% for post in paginator.posts %}
+
+                    <div class="col-lg-4 col-md-6 col-sm-8">
+                        <div class="blog-grid-item mt-30">
+                            <img src="{{ post.image }}" alt="">
+                            <div class="blog-grid-overlay">
+                                <span>{{ post.category }}</span>
+                                <a href="{{ post.url }}">
+                                    <h5 class="title">{{ post.title }}</h5>
+                                </a>
+                                <ul>
+                                    <li><i class="fal fa-calendar-alt"></i> <span>{{ post.date }}</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    {% endfor %}
+
+                    
+
+                    <div class="col-lg-12">
+                        <nav class="mt-40" aria-label="Page navigation example">
+                          <ul class="pagination pagination-2 justify-content-center">
+  {% if paginator.previous_page %}
+    <li class="page-item">
+      <a class="page-link d-none d-sm-inline-block" href="{{ paginator.previous_page_path }}" tabindex="-1" aria-disabled="true"><i class="fal fa-arrow-left"></i></a>
+    </li>
+  {% else %}
+    <li class="page-item">
+      <a class="page-link d-none d-sm-inline-block" href="{{ paginator.previous_page_path }}" tabindex="-1" aria-disabled="true"><i class="fal fa-arrow-left"></i></a>
+    </li>
+  {% endif %}
+  <span class="page_number ">
+    <li class="page-item"><a class="page-link active" href="#">{{ paginator.page }} of {{ paginator.total_pages }}</a></li>
+
+  </span>
+  {% if paginator.next_page %}
+    <li class="page-item">
+      <a class="page-link d-none d-sm-inline-block" href="{{ paginator.next_page_path }}"><i class="fal fa-arrow-right"></i></a>
+    </li>
+  {% else %}
+    <span class="next ">Next</span>
+    <li class="page-item">
+      <a class="page-link d-none d-sm-inline-block" href="#"><i class="fal fa-arrow-right"></i></a>
+    </li>
+  {% endif %}
+                          </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div> 
+   
+    <!--====== BLOG GRID PART ENDS ======-->

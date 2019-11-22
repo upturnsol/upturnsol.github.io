@@ -1,0 +1,63 @@
+
+    <!--====== ABOUT HISTORY PART START ======-->
+         
+    <div class="about-history-area">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-8">
+                        <div class="section-title text-center">
+                            <h2 class="title">{{ site.data.about-history-area.title }}</h2>
+                            <p>{{ site.data.about-history-area.description }}</p>
+                        </div> <!-- section title -->
+                    </div>
+                </div> <!-- row -->
+                <div class="row">
+                    {%- for item in site.data.about-history-area.history limit:4 -%}
+
+                    
+                    {%- if forloop.index % 2 != 0 -%}
+                    <div class="col-lg-6 col-md-6">  
+                        <div class="history-item  
+                        {%- if forloop.index  == 1 -%}
+                        pt-240
+                        {%- endif -%}
+                        ">
+                            <div class="history-thumb wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".1s">
+                                <img src="assets/images/history-1.jpg" alt="history">
+                            </div>
+                            <div class="history-content wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".1s">
+                                <span></span>
+                                <h4 class="title"></h4>
+                            </div>
+                            <div class="number-box">
+                                <span>02</span>
+                            </div>
+                        </div>
+                    <!-- history item -->
+                    {%- else -%}
+                        <div class="history-item">
+                            <div class="history-thumb wow fadeInUp" data-wow-duration=".1s" data-wow-delay=".2s">
+                                <img src="assets/images/history-2.jpg" alt="history">
+                            </div>
+                            <div class="history-content wow fadeInUp" data-wow-duration=".1s" data-wow-delay=".2s">
+                                <span>1990 - Startup</span>
+                                <h4 class="title">Technical content may have per suasive objectives.</h4>
+                            </div>
+                            <div class="number-box">
+                                <span>04</span>
+                            </div>
+                            <div class="number-box-2">
+                                <i class="fal fa-plus"></i>
+                            </div>
+                        </div> 
+                        <!-- history item -->
+                    </div>
+                    {%- endif -%}                
+                {%- endfor -%}
+
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> 
+    
+        <!--====== ABOUT HISTORY PART ENDS ======-->
+    

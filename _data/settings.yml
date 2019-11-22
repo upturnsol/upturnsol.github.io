@@ -1,0 +1,30 @@
+
+name: omnivus angency
+title: 'omnivus angency'
+description: ''
+logo: 'assets/images/logo.png'
+favicon: ''
+email: support@ezaam.team
+phone: 786 875 864 75 7
+
+# [ default, classic, modern, modern2 ]
+layout: default
+
+socials:
+  - name: facebook
+    url: '#'
+    icon: 'fab fa-facebook-f'
+  - name: twitter
+    url: '#'
+    icon: 'fab fa-twitter'
+  - name: behance
+    url: '#'
+    icon: 'fab fa-behance'
+  - name: linkedin
+    url: '#'
+    icon: 'fab fa-linkedin-in'
+  - name: youtube
+    url: '#'
+    icon: 'fab fa-youtube'
+  
+back2top: true

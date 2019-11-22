@@ -1,0 +1,23 @@
+- image: assets/images/services-thumb-1.jpg
+  title: 'UI/UX Design'
+  description: The functional goal of technical content is to help people use a product successfully. The business goal must tie the content.
+
+- image: assets/images/services-thumb-2.jpg
+  title: 'IT Consultancy'
+  description: The functional goal of technical content is to help people use a product successfully. The business goal must tie the content.
+
+- image: assets/images/services-thumb-3.jpg
+  title: 'Technology Prof.'
+  description: The functional goal of technical content is to help people use a product successfully. The business goal must tie the content.
+
+- image: assets/images/services-thumb-4.jpg
+  title: 'Web Development'
+  description: The functional goal of technical content is to help people use a product successfully. The business goal must tie the content.
+
+- image: assets/images/services-thumb-5.jpg
+  title: 'App Development'
+  description: The functional goal of technical content is to help people use a product successfully. The business goal must tie the content.
+
+- image: assets/images/services-thumb-6.jpg
+  title: 'Game Design'
+  description: The functional goal of technical content is to help people use a product successfully. The business goal must tie the content.

@@ -1,0 +1,15 @@
+slider:
+  - image: assets/images/banner-bg-1.1.jpg
+    tagline: ''
+    title: 'Welcome To UpturnSolution'
+    description: 'Your Remote Support Team with Real Results!' 
+    button_text: 'Team'
+    button_url: 'team'
+    
+  - image: assets/images/banner-bg-1.2.jpg
+    tagline: ''
+    title: 'Welcome To UpturnSolution'
+    description: 'Your Remote Support Team with Real Results!' 
+    button_text: 'Team'
+    button_url: 'team'
+    

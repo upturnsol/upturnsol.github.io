@@ -1,0 +1,33 @@
+copywrite: 'Copyright By@ <span>ducore</span> - 2019'
+background-image: 'assets/images/footer-bg.jpg'
+logo: 'assets/images/logo-1.1.png'
+description: 'The web has changed a lot since Vitaly posted his first article back in 2006. The team at Smashing has changed too, as have the things that we bring to our community onferences, books, and our membership added to the online magazine. <br>
+                            One thing that hasn’t changed is that we’re a small team — with most of us not working'
+
+widget-1: '<h4 class="title">Pages</h4>
+            <div class="footer-list">
+              <ul>
+                <li><a href="#"><i class="fal fa-angle-right"></i> Home</a></li>
+                <li><a href="#"><i class="fal fa-angle-right"></i> Services</a></li>
+                <li><a href="#"><i class="fal fa-angle-right"></i> About</a></li>
+                <li><a href="#"><i class="fal fa-angle-right"></i> Career</a></li>
+                <li><a href="#"><i class="fal fa-angle-right"></i> Refund</a></li>
+                <li><a href="#"><i class="fal fa-angle-right"></i> Terms</a></li>
+            </ul>
+            <ul>
+                <li><a href="#"><i class="fal fa-angle-right"></i> Details</a></li>
+                <li><a href="#"><i class="fal fa-angle-right"></i> Contact</a></li>
+                <li><a href="#"><i class="fal fa-angle-right"></i> Business</a></li>
+                <li><a href="#"><i class="fal fa-angle-right"></i> Affiliate</a></li>
+            </ul>
+          </div>
+            '
+
+widget-2: '<h4 class="title">Working Hours</h4>
+                            <ul>
+                                <li>Monday - Friday: 7:00 - 17:00</li>
+                                <li>Saturday: 7:00 - 12:00</li>
+                                <li>Sunday and holidays: 8:00 - 10:00</li>
+                            </ul>
+                            <p><span>For more then 30 years,</span> IT Service has been a reliable partner in the field of logistics and cargo forwarding.</p>
+                            <a href="#"><i class="fal fa-angle-right"></i>Discover More</a>' 

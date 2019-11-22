@@ -1,0 +1,33 @@
+tagline: who we are
+title: We Work Hard Play Hard Explore Creative Mmind
+description: '
+      Your <strong><a href="team">remote team of</a></strong> Virtual Assistants for <strong> <a href="web-development"> Web development</a></strong> | Real Estate | Legal Assistant | Sales Assistant | Lead Generation | Digital Marketing | Personal Assistant | and More!
+      <br/>
+      Is your inbox is overflowing, and your "to-do" list seems endless? This is where UpturnSolution comes in!
+      UpturnSolution is a trusted & respectable <strong> <a href="team">small team of</a></strong> Virtual Assistant services provider. We are all about helping you do more in less time. 
+      <br/>
+      We found a better way of helping small and mediums scale businesses/startup via our top-notch Virtual Assistance services. 
+      Just send us your requests, and we get things done!'
+
+slider:
+  - icon: 'fal fa-laptop-code'
+    title: IT Soluations
+    description: Sed ut perspiciatis unde omnis iste natus error volup
+    link: '#' 
+
+  - icon: 'fal fa-fingerprint'
+    title: Security System
+    description: Sed ut perspiciatis unde omnis iste natus error volup
+    link: '#' 
+
+  - icon: 'fal fa-chalkboard'
+    title: Web Development
+    description: Sed ut perspiciatis unde omnis iste natus error volup
+    link: '#' 
+
+  - icon: 'fal fa-database'
+    title: Database Security
+    description: Sed ut perspiciatis unde omnis iste natus error volup
+    link: '#' 
+
+  

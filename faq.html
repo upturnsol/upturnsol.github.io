@@ -1,0 +1,49 @@
+---
+layout: page
+currentMenu: ' Home'
+title: FAQ
+page_name: FAQ
+---
+
+
+    <!--====== ABOT FAQ PART START ======-->
+         
+    <div class="about-faq-area pb-100 bg_cover">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-faq-content">
+                        <span>{{ site.data.about-faq-area.tagline }}</span>
+                        <h2 class="title">{{ site.data.about-faq-area.title }}</h2>
+                    </div>
+                    <div class="faq-accordion-3 mt-30">
+                        <div class="accordion" id="accordionExample">
+                            {%- for faq in site.data.about-faq-area.faqs -%}
+                            <div class="card wow fadeInLeft" data-wow-duration=".1.2s" data-wow-delay=".2s">
+                                <div class="card-header" id="headingOne{{ forloop.index }}">
+                                    <a class="" href="" data-toggle="collapse" data-target="#collapseOne{{ forloop.index }}" aria-expanded="true" aria-controls="collapseOne">
+                                        <i class="fal fa-magic"></i>
+                                        {{ faq.title }}
+                                    </a>
+                                </div>
+
+                                <div id="collapseOne{{ forloop.index }}" class="collapse 
+                                {%- if forloop.index == 1 -%}
+                                    show
+                                {%- endif -%}"
+                                 aria-labelledby="headingOne{{ forloop.index }}" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>{{ faq.description }}</p>
+                                    </div>
+                                </div>
+                            </div> <!-- card -->
+                            {%- endfor -%}
+                      
+                        </div>
+                    </div> <!-- faq accordion -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </div> 
+
+    <!--====== ABOT FAQ PART ENDS ======-->

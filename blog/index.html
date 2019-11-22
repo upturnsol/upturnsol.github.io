@@ -1,0 +1,28 @@
+---
+layout: blog-grid
+currentMenu: ' Blog'
+title: News Grid
+page_neme: news
+---
+
+
+<div class="blog-grid-area pt-90 pb-120">
+    <div class="container">
+        <div class="row justify-content-center">
+            {%- for post in site.posts -%}
+            <div class="col-lg-4 col-md-6 col-sm-8">
+                <div class="blog-grid-item mt-30">
+                    <img src="{{ post.image | relative_url }}" alt="">
+                    <div class="blog-grid-overlay">
+                        <span>{{ post.category }}</span>
+                        <a href="{{ post.url }}"><h5 class="title">{{ post.title }}</h5></a>
+                        <ul>
+                            <li><i class="fal fa-calendar-alt"></i> <span>{{ post.date }}</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            {%- endfor -%}                    
+        </div>
+    </div>
+</div> 

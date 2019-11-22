@@ -1,0 +1,25 @@
+- image: assets/images/services-4.1.jpg
+  title: Virtual Assistants team 
+  description: 'As your additional team member, our Virtual Assistants team act as an extension of your team for one-time projects or long-term obligations. '
+  link: '#'
+- image: assets/images/services-4.2.jpg
+  title: development, and technical support 
+  description: 'Our services are adaptable and tailored to meet your exact needs. We provide executive assistance, secretarial, and administrative, development, and technical support for startup businesses, SMEs, professionals, celebrities, and individuals across all industries.'
+  link: '#'
+- image: assets/images/services-4.3.jpg
+  title: It Management System
+  description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantiuto-tam rem aperiam eaque ipsa quae inventore'
+  link: '#'
+- image: assets/images/services-4.4.jpg
+  title: 'Appropriate Solutions'
+  description: "We know all businesses are unique, with differing demands and priorities. To provide appropriate solutions, we'll speedily learn how you and your business operate and "
+  link: '#'
+- image: assets/images/services-4.5.jpg
+  title: Team services 
+  description: 'Our Virtual Assistant Team services will save you time and allow you can focus on growing your business.'
+  link: '#'
+- image: assets/images/services-4.6.jpg
+  title:  Get the Expertise 
+  description: 'At UpturnSolution, you get the expertise you need on your team without the salary and complications of an employee. '
+  link: '#'
+  

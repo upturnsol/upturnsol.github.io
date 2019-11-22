@@ -1,0 +1,66 @@
+tagline: our team member
+title: Meet Our Exclusive Leadership
+
+teams: 
+  - avatar: assets/images/team-member-1.jpg
+    name: 'David Jhon Korla'
+    tagline: 'IT CONSULTANT'
+    facebook: '#'
+    twitter: '#'
+    behance: '#'
+    youtube: '#'
+    dribbble: '#'
+  
+  - avatar: assets/images/team-member-2.jpg
+    name: David Jhon Korla
+    tagline: IT CONSULTANT
+    facebook: '#'
+    twitter: '#'
+    behance: '#'
+    youtube: '#'
+    dribbble: '#'
+  
+  - avatar: assets/images/team-member-3.jpg
+    name: David Jhon Korla
+    tagline: IT CONSULTANT
+    facebook: '#'
+    twitter: '#'
+    behance: '#'
+    youtube: '#'
+    dribbble: '#'
+  
+
+  - avatar: assets/images/team-member-4.jpg
+    name: David Jhon Korla
+    tagline: IT CONSULTANT
+    facebook: '#'
+    twitter: '#'
+    behance: '#'
+    youtube: '#'
+    dribbble: '#'
+  
+
+  - avatar: assets/images/team-member-5.jpg
+    name: David Jhon Korla
+    tagline: IT CONSULTANT
+    facebook: '#'
+    twitter: '#'
+    behance: '#'
+    youtube: '#'
+    dribbble: '#'
+  
+
+  - avatar: assets/images/team-member-6.jpg
+    name: David Jhon Korla
+    tagline: IT CONSULTANT
+    facebook: '#'
+    twitter: '#'
+    behance: '#'
+    youtube: '#'
+    dribbble: '#'
+  
+join:
+  tagline: Join With us
+  title: Let’s make some noise with us.
+  #google form link
+  applay_link: #

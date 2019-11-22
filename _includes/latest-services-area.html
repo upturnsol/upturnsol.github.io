@@ -1,0 +1,24 @@
+    <!--====== LATEST SERVICES PART START ======-->
+
+    <div class="latest-services-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                {%- for item in site.data.latest-services-area -%}
+                <div class="col-lg-4 col-md-6 col-sm-9 wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0s">
+                    <div class="single-services mt-30 mb-55">
+                        <div class="services-thumb">
+                            <img src="{{ item.image }}" alt="">
+                        </div>
+                        <div class="services-content">
+                            <h4 class="title">{{ item.title }}</h4>
+                            <p>{{ item.description }}</p>
+                            <a href="{{ item.link }}">Read More <i class="fal fa-long-arrow-right"></i></a>
+                        </div>
+                    </div> <!-- single services -->
+                </div>
+                {%- endfor -%}
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </div>
+
+    <!--====== LATEST SERVICES PART ENDS ======-->

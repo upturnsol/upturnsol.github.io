@@ -1,0 +1,36 @@
+  <!--====== TEAM MEMBER PART START ======-->
+  <div class="team-member-area">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="section-title text-center">
+                    <span>{{ site.data.team-member-area.tagline }}</span>
+                    <h2 class="title">{{ site.data.team-member-area.title }}</h2>
+                </div>
+            </div>
+        </div> <!-- row -->
+    </div> <!-- container -->
+    <div class="container-fluid">
+        <div class="row">
+            {%- for team in site.data.team-member-area.teams -%}
+            <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="single-team-member mt-30">
+                        <img src="{{ team.avatar }}" alt="team-member">
+                        <div class="team-member-overlay">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-{{ team.facebook }}-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-{{ team.twitter }}"></i></a></li>
+                                <li><a href="#"><i class="fab fa-{{ team.behance }}"></i></a></li>
+                                <li><a href="#"><i class="fab fa-{{ team.youtube }}"></i></a></li>
+                                <li><a href="#"><i class="fab fa-{{ team.dribbble }}"></i></a></li>
+                            </ul>
+                            <h4 class="title">{{ team.name }}</h4>
+                            <span>{{ team.tagline }}</span>
+                        </div>
+                    </div> <!-- single team member -->
+                </div>
+            {%- endfor -%}
+        </div> <!-- row -->
+    </div> <!-- container fluid -->
+</div>
+<!--====== TEAM MEMBER PART ENDS ======-->

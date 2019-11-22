@@ -1,0 +1,18 @@
+<!--====== BRAND 2 PART START ======-->
+<div class="brand-2-area pb-120">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="brand-active">
+                    {%- for item in site.data.brand-2-area -%}
+                    <div class="brand-item">
+                        <img src="{{ item.image }}" alt="{{ item.name }}">
+                    </div>
+                    {%- endfor -%}
+                </div> <!-- brand item -->
+            </div>
+        </div> <!-- row -->
+    </div> <!-- container -->
+</div>
+
+<!--====== BRAND 2 PART ENDS ======-->

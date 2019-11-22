@@ -1,0 +1,40 @@
+tagline: 25 Years Of Experience
+title: Not only explore for job done.
+experience_text: "Are you a small business owner looking for a virtual assistant to help manage your day-to-day operations, or a corporation in need of team extension, or a celebrity in need of virtual personal assistant services?
+                                    UpturnSolution is your ideal solution! 
+                                    <br>
+                                    <br>
+                                    UpturnSolution Virtual Assistant Company was established out of a passion and interest in working with entrepreneurs and small business owners, and leaders in a wide variety of industries. 
+                                    <br>
+                                    <br>
+                                    We provide outsourced virtual services and remote solutions to SMEs, professionals, and even celebrities who do not have space/equipment/funds/desire/need to hire a full-time, in-house employee. Over the years, we have helped hundreds of businesses across every industry you can think of, including financial services, customer service, website design, App development, media and publishing, entertainment, medical, and legal.
+                                    UpturnSolution services are designed to help businesses without investing in infrastructure, taxes, and payrolls and to pay only for the time you use our services. Hence, functioning as an effective, cost-efficient, and quality propeller for our clients' businesses. Our extensive range of services is offered at reasonable prices.
+                                    <br>
+                                    <br>
+                                    We have a reputation for reliability, efficiency, and attention to detail. Our remote team is continually updating their skills to stay on track with the latest technology and techniques.
+                                    "
+experience_url: '#'
+
+
+
+
+
+experiences:
+  - image: assets/images/experience-1.jpg
+    title: MISSION
+    description: 'Our mission is to provide customized support services to executives, professionals, and entrepreneurs so that they may work less earn more, and expand their team quickly as per requirement.'
+    link: '#' 
+    icon: 'fa-laptop-code'
+
+  - image: assets/images/experience-2.jpg
+    title: VISION
+    description: 'To be a sought-after assistants company and become a recognized authority in the virtual support for medium, small scale businesses.'
+    link: '#' 
+    icon: 'fa-headphones-alt'
+
+  - image: assets/images/experience-3.jpg
+    title: OUR CORE VALUES
+    description: 'UpturnSolution is committed to the following core values: Qualitative Integrity | ourcefulness | Professionalism | Precision & | Dedication | Punctuality |Collaboration'
+    link: '#' 
+    icon: 'fa-analytics'
+

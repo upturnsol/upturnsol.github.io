@@ -1,0 +1,38 @@
+tagline: plans
+title: Here is plans
+
+plan: 
+# monthly plan
+  - category_name: monthly
+    price: 56
+    name: Early Birds
+    tagline: Per Month
+    title: 
+    description: 'The functional goal of technical content is to help people use a product successfully.'
+    purchase_link: 
+
+  - category_name: monthly
+    price: 99
+    name: Team
+    tagline: Per Month
+    title: 
+    description: 'The functional goal of technical content is to help people use a product successfully.'
+    purchase_link: 
+
+  - category_name: monthly
+    price: 133
+    name: Personal
+    tagline: Per Month
+    title: 
+    description: 'The functional goal of technical content is to help people use a product successfully.'
+    purchase_link: 
+
+  - category_name: monthly
+    price: 599
+    name: Plutinum
+    tagline: Per Month
+    title: 
+    description: 'The functional goal of technical content is to help people use a product successfully.'
+    purchase_link: 
+
+

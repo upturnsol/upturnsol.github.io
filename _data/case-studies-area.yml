@@ -1,0 +1,20 @@
+tagline: Latest Case Studies
+title: Reads Our Recent Case Studies 
+
+case-studies:
+  - image: assets/images/case-studies-1.jpg
+    tagline: IT / Solutions
+    title: How To Improve <br> IT knowledge
+    link: '#'
+  - image: assets/images/case-studies-2.jpg
+    tagline: Product Design
+    title: Develop Your IT <br> Business Growth
+    link: '#'
+  - image: assets/images/case-studies-3.jpg
+    tagline: Consulting
+    title: Management Your <br>It Solutions System
+    link: '#'
+  - image: assets/images/case-studies-4.jpg
+    tagline: Software Solutiona
+    title: How To Control <br>Your IT Customer
+    link: '#'

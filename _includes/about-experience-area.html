@@ -1,0 +1,38 @@
+
+    <!--====== ABOUT EXPERIENCE PART START ======-->
+         
+    <div class="about-experience-area pb-120">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="experience-item">
+                            <span>{{ site.data.about-experience-area.tagline }}</span>
+                            <h2 class="title">{{ site.data.about-experience-area.title }}</h2>
+                        </div> <!-- experience item -->
+                    </div>
+                    <div class="col-lg-6 offset-lg-1">
+                        <div class="experience-item">
+                            <p>{{ site.data.about-experience-area.experience_text }}</p>
+                            <a href="{{ site.data.about-experience-area.experience_url }}">Read More</a>
+                        </div> <!-- experience item -->
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    {%- for item in site.data.about-experience-area.experiences -%}
+                    <div class="col-lg-4 col-md-6 col-sm-8 wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".2s">
+                        <div class="single-experience mt-30">
+                            <img src="{{ item.image }}" alt="">
+                            <div class="experience-overlay">
+                                <h5 class="title">{{ item.title }}</h5>
+                                <p>{{ item.description }}</p>
+                            </div>
+                        </div> <!-- single experience -->
+                    </div>
+                    {%- endfor -%}
+                    
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> 
+    
+        <!--====== ABOUT EXPERIENCE PART ENDS ======-->
+    
