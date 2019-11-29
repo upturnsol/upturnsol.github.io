@@ -1,7 +1,7 @@
 <!--====== BANNER PART START ======-->
     <div class="banner-active">
         {%- for item in site.data.hero.slider -%}
-        <div class="single-banner bg_cover" style="background-image: url('{{ item.image }}');">
+        <div class="single-banner bg_cover" style="background-image: url('{{ item.image  | relative_url }}');">
             <div class="banner-overlay">
                 <div class="container">
                     <div class="row">

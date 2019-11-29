@@ -17,17 +17,6 @@ paginate_path       : "/blog/page:num/"
 
 plugins:
   - jekyll-feed
-  - jekyll-archives # Sorry, not GitHub pages friendly!
-
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layout: 'archive'
-  permalinks:
-    category: '/category/:name/'
-    tag: '/tag/:name/'
-
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -87,8 +76,3 @@ whitelist:
 
 # Google map
 google_map: AIzaSyCcvAXp35fi4q7HXm7vcG9JMtzQbMzjRe8
-
-disqus:
-  shortname: jubayed
-
-

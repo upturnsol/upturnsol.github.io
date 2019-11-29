@@ -1,23 +1,30 @@
 - image: assets/images/services-thumb-1.jpg
-  title: 'UI/UX Design'
-  description: The functional goal of technical content is to help people use a product successfully. The business goal must tie the content.
+  title: 'Administrative and Executive Assistant'
+  description: 'Whether Admin Assistant, Professional Assistant, Virtual Administrative Assistant, Online Administrative Assistant, Virtual Office Assistant, and Remote Assistant, they are just different names for the same role.'
+  url: 'administrative-and-executive-assistant'
 
 - image: assets/images/services-thumb-2.jpg
-  title: 'IT Consultancy'
-  description: The functional goal of technical content is to help people use a product successfully. The business goal must tie the content.
+  title: 'Accounting or Bookkeeping '
+  description: 'Bookkeeping and Accounting perform a vital function for every profit-making business and usually demands a substantial investment of time. As your remote service provider, we assume the responsibility to waive off the burden through the best virtual accounting and bookkeeping services.'
+  url: 'accounting-or-bookkeeping'
 
 - image: assets/images/services-thumb-3.jpg
-  title: 'Technology Prof.'
-  description: The functional goal of technical content is to help people use a product successfully. The business goal must tie the content.
+  title: 'Call Center Services'
+  description: 'A great customer experience is essential for driving business growth and achieving long-term success. Hiring virtual customer service providers is the most effective and budget-friendly way to accomplish this critical goal'
+  url: 'accounting-or-bookkeeping'
 
 - image: assets/images/services-thumb-4.jpg
-  title: 'Web Development'
-  description: The functional goal of technical content is to help people use a product successfully. The business goal must tie the content.
+  title: 'Telemarketing Services'
+  description: 'No matter your business, you need marketing! As business competition toughens day by day, “marketing” has evolved a lot more than print ads and billboards. Telemarketing is a logical communication channel for major marketing processes in a business.'
+  url: 'telemarketing-services'
 
 - image: assets/images/services-thumb-5.jpg
-  title: 'App Development'
-  description: The functional goal of technical content is to help people use a product successfully. The business goal must tie the content.
+  title: 'Healthcare Services'
+  description: 'Recent business models and processes now reflect the trends that are shaping the global healthcare value chain. As Virtual Healthcare Services provider, UpturnSolution offers customized solutions to help remove the complexity of tedious Medicare tasks. '
+  url: 'healthcare-services'
+  
+- image: assets/images/services-thumb-1.jpg
+  title: 'Legal Process Outsourcing'
+  description: 'There is a recent phenomenal shift in the delivery model for legal services in the legal industry. This new model, known as legal process outsourcing or LPO.'
+  url: 'legal-process-outsourcing'
 
-- image: assets/images/services-thumb-6.jpg
-  title: 'Game Design'
-  description: The functional goal of technical content is to help people use a product successfully. The business goal must tie the content.

@@ -9,7 +9,9 @@
                             <img src="{{ item.image | relative_url }}" alt="">
                             <div class="services-overlay">
                                 <i class="fal fa-eye-dropper"></i>
-                                <h4 class="title">{{ item.title }}</h4>
+                                <a href="{{ item.url }}">
+                                    <h4 class="title">{{ item.title }}</h4>
+                                </a>
                                 <p>{{ item.description }}</p>
                             </div>
                         </div> <!-- single services -->
